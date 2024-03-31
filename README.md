@@ -11,7 +11,8 @@ commutes. It provides users with a platform to browse available cars,
 select pickup and drop-off locations, schedule bookings, and make
 payments seamlessly.
 
-### Features User Management: Allows users to create accounts, manage
+### Features User 
+Management: Allows users to create accounts, manage
 personal information, and view booking history. Booking System:
 Facilitates the booking of vehicles by selecting pickup and drop-off
 locations, along with preferred dates and times. Driver Management:
@@ -26,7 +27,8 @@ Enables users to rate drivers and provide feedback on their experiences.
 ### Database: 
 MySQL
 
-### Tables in the SQL Code User: stores information about the users of
+### Tables in the SQL Code 
+User: stores information about the users of
 the application. Driver: stores information about the drivers who are
 available for bookings. Car: stores information about the cars that are
 available for bookings. Booking: stores information about the bookings
