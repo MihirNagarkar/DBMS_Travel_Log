@@ -1,6 +1,6 @@
 # Travellog Database Schema
 
-### Description:
+## Description:
 This is a simple database schema for a travel logging application. It
 includes tables for users, drivers, cars, bookings, invoices, routes,
 car inventory, driver schedules, admins, payments, locations, car types,
@@ -11,7 +11,7 @@ commutes. It provides users with a platform to browse available cars,
 select pickup and drop-off locations, schedule bookings, and make
 payments seamlessly.
 
-### Features:
+## Features:
 User Management: Allows users to create accounts, manage
 personal information, and view booking history. Booking System:
 Facilitates the booking of vehicles by selecting pickup and drop-off
@@ -24,23 +24,44 @@ securely. Admin Panel: Provides administrators with tools to manage
 users, drivers, vehicles, bookings, and payments. Feedback System:
 Enables users to rate drivers and provide feedback on their experiences.
 
-### Database: 
+## Database: 
 MySQL
 
-### Tables in the SQL Code: 
-User: stores information about the users of
-the application. Driver: stores information about the drivers who are
-available for bookings. Car: stores information about the cars that are
-available for bookings. Booking: stores information about the bookings
-made by the users. Invoice: stores information about the invoices
-generated for each booking. Route: stores information about the
-different routes available for travel. Car_Inventory: stores information
-about the inventory of cars available for bookings. Driver_Schedule:
+## Tables in the SQL Code: 
+### User: 
+Stores information about the users of
+the application. 
+### Driver: 
+Stores information about the drivers who are
+available for bookings.
+### Car: 
+Stores information about the cars that are
+available for bookings.
+### Booking: 
+Stores information about the bookings
+made by the users.
+### Invoice: 
+Stores information about the invoices
+generated for each booking.
+### Route: 
+Stores information about the
+different routes available for travel.
+### Car_Inventory: 
+Stores information about the inventory of cars available for bookings. Driver_Schedule:
 stores information about the availability of drivers for bookings.
-Admin: stores information about the administrators of the application.
-Payment: stores information about the payments made by the users.
-Location: stores information about the different locations available for
-travel. Car_Type: stores information about the different types of cars
-available for bookings. Discount: stores information about the different
-discounts available for bookings. Driver_Rating: stores information
+### Admin: 
+Stores information about the administrators of the application.
+### Payment: 
+Stores information about the payments made by the users.
+### Location: 
+Stores information about the different locations available for
+travel.
+### Car_Type: 
+Stores information about the different types of cars
+available for bookings.
+### Discount: 
+Stores information about the different
+discounts available for bookings.
+### Driver_Rating: 
+Stores information
 about the ratings given to the drivers by the users.
