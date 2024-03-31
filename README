@@ -1,8 +1,8 @@
-##Travellog Database Schema
+#Travellog Database Schema
 
 This is a simple database schema for a travel logging application. It includes tables for users, drivers, cars, bookings, invoices, routes, car inventory, driver schedules, admins, payments, locations, car types, discounts, and driver ratings.
 
-#Tables
+###Tables in the SQL Code
 User: stores information about the users of the application.
 Driver: stores information about the drivers who are available for bookings.
 Car: stores information about the cars that are available for bookings.
